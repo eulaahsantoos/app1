@@ -1,4 +1,5 @@
 import { FiSearch } from "react-icons/fi";
+import'./style.css';
 
 function App() {
   return (
@@ -8,9 +9,7 @@ function App() {
       <input type="type" placeholder="digite aqui..."/>
       <button className="buttonSearch">
         <FiSearch size={25} color="#FFF"/>
-        
-
-        <FiSearch/>
+      
         
         
       </button>

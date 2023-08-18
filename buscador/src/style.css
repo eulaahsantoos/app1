@@ -1,0 +1,61 @@
+.container{
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(#121212, #009494);
+}
+
+
+.title{
+    font-size: 85px;
+    color: (#92c9b1, 100%, 42%);
+    animation: FlipTitle 2s;
+
+
+}
+
+@keyframes FlipTitle{
+    from{
+        transform: rotatex(90deg);
+    }
+    to{
+        transform: rotatex(0deg);
+    }
+}
+
+.cantainerInput{
+    background-color: rgb(29, 109, 92);
+    padding: 15px;
+    margin: 34px 0;
+    display: flex;
+    border-radius: 8px;
+    box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.5);
+}
+
+.cantainerInput Input{
+    background-color: transparent;
+    border: 0;
+    font-size: 20px;
+    color: azure;
+    outline: none;
+    margin-right: 8px;
+}
+
+.cantainerInput Input::placeholder{
+    color: aliceblue;
+}
+
+.buttonSearch{
+    background-color: transparent;
+    border: 0;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: 2s;
+}
+
+.buttonSearch:hover{
+    transform: scale(1.2);
+}
